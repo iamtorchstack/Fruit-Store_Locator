@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Fruit Google Map</title>
+        <!--Import the js file-->
+        <script src="js/index.js"></script>
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
+    </head>
+
+<body>
+
+    <div class="fruitstyle">Fruit Locator</div>
+
+    <div class="search-container">
+        <div class="search">
+            <input id="zip-code-input" type="text" placeholder="Enter ZIP"/>
+            <i class="fas fa-search"></i>
+        </div>
+    </div>
+
+    <div class="store-list-container">
+        <div class="store-list">
+            <div class="store-address" >23, Bolaji Omupo Street</div>
+            <div class="store-phone-number" >+2347032684872</div>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNqS8VGVqfheIaENSoktTxsYD3uCluepk&callback=initMap">
+    </script>
+
+</body>
+
+</html>
